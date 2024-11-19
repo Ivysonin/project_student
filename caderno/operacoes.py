@@ -10,14 +10,33 @@ if __name__ == "__main__" :
     """Testando subtracao"""
     #print (subtracao(-2, -5))
 
-def multiplicacao(a, b : int) -> int :
-    return a * b
-
 def divisao(a, b : int) -> int :
     return a / b
 
+def multiplicacao(a, b : int) -> int :
+    return a * b
+
 def potenciacao(a, b : int) -> int :
     return a ** b
+
+def porcentagem(a_d : int, porcentagen: int | float, valor : int | float) -> float :
+    if a_d == 1 : # Acrescimo
+        resultado = valor + (valor * porcentagen/100)
+        return resultado
+    elif a_d == 2 : # Desconto
+        resultado = valor - (valor * porcentagen/100)
+        return resultado
+if __name__ == "__main__" :
+    """Testtando porcentagem"""
+    #escolha = int(input ("Digite '1' para acrescimo '2' para desconto: "))
+    #if escolha == 1 : # Acrescimo
+        #valor = float(input ("Digite um valor: "))
+        #porcentagem_ = float(input ("Digite a porcentagem: "))
+
+    #elif escolha == 2 : # Desconto
+        #valor = float(input ("Digite um valor: "))
+        #porcentagem_ = float(input ("Digite a porcentagem: "))
+#print (f"Diminuindo {porcentagem_}% a {valor} fica {porcentagem(escolha, porcentagem_, valor)}")
 
 def tabuada (a : int) -> int :
     for i in range(10+1) :
@@ -27,6 +46,6 @@ if __name__ == "__main__" :
     """Testando tabuada"""
     #tabuada(-2)
 
-def C_para_F (c):
+def C_para_F (c : float) -> float :
     f = (c * 9/5) + 32
     return f
