@@ -1,3 +1,5 @@
+from math import sqrt
+
 def adicao(a, b : int) -> int :
     return a + b
 if __name__ == "__main__" :
@@ -20,10 +22,10 @@ def potenciacao(a, b : int) -> int :
     return a ** b
 
 def porcentagem(a_d : int, porcentagen: int | float, valor : int | float) -> float :
-    if a_d == 1 : # Acrescimo
+    if a_d == '1' : # Acrescimo
         resultado = valor + (valor * porcentagen/100)
         return resultado
-    elif a_d == 2 : # Desconto
+    elif a_d == '2' : # Desconto
         resultado = valor - (valor * porcentagen/100)
         return resultado
 if __name__ == "__main__" :
@@ -45,6 +47,9 @@ def tabuada (a : int) -> int :
 if __name__ == "__main__" :
     """Testando tabuada"""
     #tabuada(-2)
+
+def raiz_quadrada (a: int) -> float :
+    return sqrt(a)
 
 def C_para_F (c : float) -> float :
     f = (c * 9/5) + 32
