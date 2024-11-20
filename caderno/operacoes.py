@@ -41,7 +41,7 @@ if __name__ == "__main__" :
 #print (f"Diminuindo {porcentagem_}% a {valor} fica {porcentagem(escolha, porcentagem_, valor)}")
 
 def tabuada (a : int) -> int :
-    for i in range(10+1) :
+    for i in range(1, 10+1) :
         resultado = a * i
         print (f"{a} x {i} = {resultado}")
 if __name__ == "__main__" :

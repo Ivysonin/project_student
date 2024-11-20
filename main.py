@@ -1,6 +1,6 @@
 from caderno import operacoes
 
-print ("\n======== Bem-vindo(a) ao caderno do Estudante ========\n")
+print ("\n======== Bem-vindo(a) ao caderno do Estudante ========")
 print ("------------------ Descrição ------------------")
 print ("    Feito para você fazer exercícios de casa.\n")
 print ("===== Nossos Serviços:\n")
@@ -19,7 +19,7 @@ while True :
     escolha = input("\n=== Escolha os números de 1 a 9 conforme oque deseja (0 para sair): ")
 
     if escolha == "0" :
-        print ("\n=== Finalizando...\n")
+        print ("\n=== Encerrando...\n")
         break
 
     elif escolha == "1" :
@@ -83,14 +83,31 @@ while True :
         except ValueError :
             print ("\n======== ERRO: digite números inteiros ========")
 
+    elif escolha == "7" :
+        try:
+            numero = int(input ("====================\nDigite um número: "))
+            operacoes.tabuada(numero)
+            print ("==============")
+        except ValueError :
+            print ("\n======== ERRO: digite números inteiros ========")
 
+    elif escolha == "8" : 
+        try:
+            numero = int(input ("====================\nDigite um número: "))
+            print (f"A √{numero} é: {round(operacoes.raiz_quadrada(numero), 2)}")
+            print ("==============")
+        except ValueError:
+            print ("\n======== ERRO: digite números inteiros Positivos ========")
 
-
-
-
-
-
-
+    elif escolha == "9" : 
+        try:
+            c = float(input ("====================\nDigite quantos °C : "))
+            print (f"{c}°C convertido para °F fica: {round(operacoes.C_para_F(c), 2)}°F")
+            print ("==============")
+        except ValueError:
+            print ("\n======== ERRO: digite números inteiros Positivos ========")
 
     else:
         print ("\n======== ERRO: siga Instruções ========")
+
+print("==================== Mais um estudo concluído ====================\n")
