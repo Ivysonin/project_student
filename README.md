@@ -1,4 +1,9 @@
-## 🚀 Para Facilitar os estudos
+# 🚀 Projeto para estudantes
 
-- Desenvolvido para ajudar estudantes de escolas a fazer seus exercícios mais rápido e prático.
-- conforme meus conhecimentos aumenta, eu irei atualizando
+### Desenvolvido para:
+
+- Ajudar estudantes de escolas a fazer seus exercícios mais rápido e prático.
+- Praticar conceitos básicos de Python
+
+
+##  - Conforme meus conhecimentos aumentam, eu vou atualizando
