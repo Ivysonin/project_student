@@ -5,15 +5,15 @@ print ("------------------ Descrição ------------------")
 print ("    Feito para você fazer exercícios de casa.\n")
 print ("===== Nossos Serviços:\n")
 
-print ("1 - Adição")
-print ("2 - Subtração")
-print ("3 - Divisão")
-print ("4 - Multíplicação")
-print ("5 - Potenciação")
-print ("6 - Porcentagem")
-print ("7 - Tabuada")
-print ("8 - Raiz quadrada")
-print ("9 - °C para °F")
+print ("1 - Adição\n"
+       "2 - Subtração\n"
+       "3 - Divisão\n"
+       "4 - Multíplicação\n"
+       "5 - Potenciação\n"
+       "6 - Porcentagem\n"
+       "7 - Tabuada\n"
+       "8 - Raiz quadrada\n"
+       "9 - °C para °F")
 
 while True :
     escolha = input("\n=== Escolha os números de 1 a 9 conforme oque deseja (0 para sair): ")
@@ -36,9 +36,6 @@ while True :
             num2 = int(input ("Digite outro número: ")) 
             print (f"====================\n{num1} - {num2} = {operacoes.subtracao(num1,num2)}\n====================")
         except ValueError :
-            num1 = int(input ("====================\nDigite um número: "))
-            num2 = int(input ("Digite outro número: ")) 
-            print (f"====================\n{num1} - {num2} = {operacoes.subtracao(num1,num2)}\n====================")
             print ("\n======== ERRO: digite números inteiros ========")
  
     elif escolha == "3" :
