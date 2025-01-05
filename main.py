@@ -13,7 +13,7 @@ print ("1 - Adição\n"
        "6 - Porcentagem\n"
        "7 - Tabuada\n"
        "8 - Raiz quadrada\n"
-       "9 - °C para °F")
+       "9 - °C para °F") # Grau Celsius para Fahrenheit
 
 while True :
     escolha = input("\n=== Escolha os números de 1 a 9 conforme oque deseja (0 para sair): ")
