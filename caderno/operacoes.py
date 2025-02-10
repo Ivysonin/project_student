@@ -1,25 +1,15 @@
 from math import sqrt
 
-def adicao(a, b : int) -> int :
-    return a + b
-if __name__ == "__main__" :
-    """Testando a adicao"""
-    #print (adicao(-3, -4))
+adicao = lambda a,b: a + b
 
-def subtracao(a, b : int) -> int :
-    return a - b
-if __name__ == "__main__" :
-    """Testando subtracao"""
-    #print (subtracao(-2, -5))
+subtracao = lambda a,b: a - b
 
-def divisao(a, b : int) -> int :
-    return a / b
+divisao = lambda a,b: a / b
 
-def multiplicacao(a, b : int) -> int :
-    return a * b
+multiplicacao = lambda a,b: a * b
 
-def potenciacao(a, b : int) -> int :
-    return a ** b
+potenciacao = lambda a,b: a ** b
+
 
 def porcentagem(a_d : int, porcentagen: int | float, valor : int | float) -> float :
     if a_d == '1' : # Acrescimo
@@ -40,6 +30,7 @@ if __name__ == "__main__" :
         #porcentagem_ = float(input ("Digite a porcentagem: "))
 #print (f"Diminuindo {porcentagem_}% a {valor} fica {porcentagem(escolha, porcentagem_, valor)}")
 
+
 def tabuada (a : int) -> int :
     for i in range(1, 10+1) :
         resultado = a * i
@@ -48,8 +39,9 @@ if __name__ == "__main__" :
     """Testando tabuada"""
     #tabuada(-2)
 
-def raiz_quadrada (a: int) -> float :
-    return sqrt(a)
+
+raiz_quadrada = lambda a: sqrt(a)
+
 
 def C_para_F (c : float) -> float :
     f = (c * 9/5) + 32
