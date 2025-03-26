@@ -32,3 +32,6 @@ raiz_quadrada = lambda a: sqrt(a)
 def C_para_F (c : float) -> float :
     f = (c * 9/5) + 32
     return f
+
+
+kelvin = lambda c: c + 273
