@@ -13,10 +13,11 @@ print ("1 - Adição\n"
        "6 - Porcentagem\n"
        "7 - Tabuada\n"
        "8 - Raiz quadrada\n"
-       "9 - °C para °F") # Grau Celsius para Fahrenheit
+       "9 - °C para °F\n"  # Grau Celsius para Fahrenheit
+       "10 - °C para Kelvin") # Grau Celsius para Kelvin
 
 while True :
-    escolha = input("\n=== Escolha os números de 1 a 9 conforme oque deseja (0 para sair): ")
+    escolha = input("\n=== Escolha os números de 1 a 10 conforme o que deseja (0 para sair): ")
 
     if escolha == "0" :
         print ("\n=== Encerrando...\n")
@@ -100,6 +101,14 @@ while True :
         try:
             c = float(input ("====================\nDigite quantos °C : "))
             print (f"{c}°C convertido para °F fica: {round(operacoes.C_para_F(c), 2)}°F")
+            print ("==============")
+        except ValueError:
+            print ("\n======== ERRO: digite números inteiros Positivos ========")
+
+    elif escolha == "10" : 
+        try:
+            c = float(input("====================\nDigite quantos °C : "))
+            print (f"\n{c}°C convertido para kelvin fica: {round(operacoes.kelvin(c), 2)}K")
             print ("==============")
         except ValueError:
             print ("\n======== ERRO: digite números inteiros Positivos ========")
