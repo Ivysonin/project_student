@@ -9,4 +9,4 @@
 - Python
 
 ## 📷 Imagem do código funcionando: 
-![Captura de tela 2025-01-04 090834](https://github.com/user-attachments/assets/55805448-5601-4ec3-b1a2-6841bfd99384)
+![Código rodando](https://github.com/user-attachments/assets/930816ec-a6f1-4e91-a2bf-0271a43dec50)
