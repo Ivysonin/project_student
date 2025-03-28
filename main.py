@@ -1,11 +1,11 @@
 from caderno import operacoes
 
-print ("\n======== Bem-vindo(a) ao caderno do Estudante ========")
-print ("------------------ Descrição ------------------")
-print ("    Feito para você fazer exercícios de casa.\n")
-print ("===== Nossos Serviços:\n")
+print("\n======== Bem-vindo(a) ao caderno do Estudante ========")
+print("------------------ Descrição ------------------")
+print("    Feito para você fazer exercícios de casa.\n")
+print("===== Nossos Serviços:\n")
 
-print ("1 - Adição\n"
+print("1 - Adição\n"
        "2 - Subtração\n"
        "3 - Divisão\n"
        "4 - Multíplicação\n"
@@ -16,11 +16,11 @@ print ("1 - Adição\n"
        "9 - °C para °F\n"  # Grau Celsius para Fahrenheit
        "10 - °C para Kelvin") # Grau Celsius para Kelvin
 
-while True :
+while True:
     escolha = input("\n=== Escolha os números de 1 a 10 conforme o que deseja (0 para sair): ")
 
     if escolha == "0":
-        print ("\n=== Encerrando...\n")
+        print("\n=== Encerrando...\n")
         break
 
     elif escolha == "1":
