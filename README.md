@@ -10,3 +10,7 @@
 
 ## 📷 Imagem do código funcionando: 
 ![Código rodando](https://github.com/user-attachments/assets/930816ec-a6f1-4e91-a2bf-0271a43dec50)
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE), com cláusula adicional de atribuição.
