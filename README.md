@@ -13,4 +13,4 @@
 
 ## 📄 Licença
 
-Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE), com cláusula adicional de atribuição.
+Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE).
